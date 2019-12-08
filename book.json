@@ -1,0 +1,52 @@
+{
+
+	"title" : "Gitbook Use",
+	"author" : "mingyue",
+	"description" : "记录Gitbook的配置和一些插件的使用",
+	"language" : "zh-hans",
+
+	"temp":[
+	],
+	"plugins" : [ 
+		"popup",
+		"pageview-count",
+		"flexible-alerts@1.0.3",
+		"chapter-fold",
+		"splitter",
+		"-lunr", 
+		"-search", 
+		"search-pro",
+		"advanced-emoji",
+		"todo",
+		"insert-logo",
+		"code",
+		"page-toc-button",
+		"back-to-top-button",
+		"tbfed-pagefooter"
+	],
+	"pluginsConfig": {
+		"flexible-alerts": {
+			"style": "flat",
+"comment": {
+        "label": "Comment",
+        "icon": "fa fa-comments",
+        "className": "info"
+      }
+		},
+		"page-toc-button": {
+			"maxTocDepth": 5,
+			"minTocSize": 2
+		},
+		"insert-logo": {
+			"url": "1.jpg",
+			"style": "background: none; max-height: 50px; min-height: 30px"
+		},
+		"tbfed-pagefooter": {
+			"copyright":"Copyright &copy huawei.com 2019",
+			"modify_label": "最近修改时间：",
+			"modify_format": "YYYY-MM-DD HH:mm:ss"
+		}
+	}
+
+
+}
